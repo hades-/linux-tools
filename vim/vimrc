@@ -1,0 +1,19 @@
+" Enable line numbers
+set number
+
+" Display whitespace
+set listchars=tab:>-,trail:~,extends:>,precedes:<
+set list
+
+" Enable auto-indentation
+set autoindent
+
+" Tab width
+set tabstop=4
+set shiftwidth=4
+
+" File type specific
+"	Python
+autocmd Filetype python setlocal expandtab
+"	C/C++
+autocmd Filetype c,cpp,cc,h,hpp,hh setlocal noexpandtab
