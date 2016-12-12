@@ -1,6 +1,14 @@
 " Enable line numbers
 set number
 
+" Show filename on status line
+set ls=2
+set statusline+=%F
+
+" Ignore case for searches UNLESS I use caps
+set ignorecase
+set scs
+
 " Display whitespace
 set listchars=tab:>-,trail:~,extends:>,precedes:<
 set list
