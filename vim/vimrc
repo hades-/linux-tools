@@ -1,3 +1,7 @@
+" ColorScheme (Comment/Uncomment if desired)
+"	Default colorscheme doesn't work well in Putty
+colorscheme evening
+
 " Enable line numbers
 set number
 
